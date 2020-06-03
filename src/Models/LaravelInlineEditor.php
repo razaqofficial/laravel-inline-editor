@@ -1,6 +1,6 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor\Models;
+namespace razaqofficial\LaravelInlineEditor\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,10 +19,10 @@ class LaravelInlineEditor extends Model
     protected $fillable = [
         'key', 'content'
     ];
-    
+
     /**
      * Renders content of the given block
-     * 
+     *
      * @param  string $key Target key in the given database table
      * @return string
      */
@@ -46,7 +46,7 @@ class LaravelInlineEditor extends Model
 
     /**
      * Removes all unnecessary strings from input content
-     * 
+     *
      * @param  string $string New block content
      * @return string
      */

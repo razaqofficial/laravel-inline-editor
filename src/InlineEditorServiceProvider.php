@@ -1,6 +1,6 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor;
+namespace razaqofficial\LaravelInlineEditor;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

@@ -15,7 +15,7 @@ with some additional functionality and updated dependencies.
 
 Download this git repo, or install it via composer:
 
-`composer require swatty007/laravel-inline-editor`
+`composer require razaqofficial/laravel-inline-editor`
 
 Also make sure to get our npm dependencies:
 
@@ -30,7 +30,7 @@ Add the following to your config file:
 // config/app.php
 'providers' => [
     ...
-    swatty007\LaravelInlineEditor\InlineEditorServiceProvider::class,
+    razaqofficial\LaravelInlineEditor\InlineEditorServiceProvider::class,
 ],
 ```
 

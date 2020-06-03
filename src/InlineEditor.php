@@ -1,8 +1,8 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor;
+namespace razaqofficial\LaravelInlineEditor;
 
-use swatty007\LaravelInlineEditor\Models\LaravelInlineEditor;
+use razaqofficial\LaravelInlineEditor\Models\LaravelInlineEditor;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 
@@ -73,13 +73,13 @@ class InlineEditor
         }
 
         if (Gate::allows('laravel-inline-editor')) {
-            return sprintf('<inline-content-block 
-                source_key="'.$objectData[1].'" 
+            return sprintf('<inline-content-block
+                source_key="'.$objectData[1].'"
                 source_value="'.$key.'"
-                target_key="'.$objectData[2].'" 
+                target_key="'.$objectData[2].'"
                 validationRules="'.$objectData[4] .'"
                 rawText="'.$objectData[5] .'"
-                table="'.$objectData[0].'" 
+                table="'.$objectData[0].'"
                 options="'. $objectData[3].'"
                 content="'. str_replace('"',"'",$contentBlock->{$objectData[2]}).'"
                 >%s</inline-content-block>', $key, trim($contentBlock->{$objectData[2]}));

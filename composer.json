@@ -1,10 +1,10 @@
 {
-    "name": "swatty007/laravel-inline-editor",
+    "name": "razaqofficial/laravel-inline-editor",
     "description": "Laravel package, which allows inline editing of model specific content blocks.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Martin Niehoff",
+            "name": "Martin Niehoff and Razaqofficial",
             "email": "info@martin-niehoff.de"
         }
     ],
@@ -16,18 +16,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "swatty007\\LaravelInlineEditor\\InlineEditorServiceProvider"
+                "razaqofficial\\LaravelInlineEditor\\InlineEditorServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "swatty007\\LaravelInlineEditor\\": "src/"
+            "razaqofficial\\LaravelInlineEditor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "swatty007\\LaravelInlineEditor\\Tests\\": "tests/"
+            "razaqofficial\\LaravelInlineEditor\\Tests\\": "tests/"
         }
     },
     "scripts": {

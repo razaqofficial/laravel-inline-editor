@@ -1,6 +1,6 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor\Http;
+namespace razaqofficial\LaravelInlineEditor\Http;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
